@@ -10,7 +10,7 @@ class Screenshot2speech < Formula
   depends_on "tesseract"
 
   def install
-    bin.install "screenshot2speech-master/screenshot2speech.sh" => "screenshot2speech"
+    bin.install "screenshot2speech.sh" => "screenshot2speech"
   end
 
   def caveats
